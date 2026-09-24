@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Resultado - Farmácia Parecetaloka</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Resumo do Pedido</h2>
+    <div class="container result-container">
+        <h2>Resumo do Pedido</h2>
 
     <?php
     $nome = $_POST['nome'];
@@ -35,5 +37,6 @@
     ?>
 
     <a href="index.html">Voltar</a>
+    </div>
 </body>
 </html>
